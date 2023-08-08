@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Tektur&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.box{
+  width: 25%;
+  margin: 25px auto;
+}
+
+
+.container {
+  width: 95%;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .wrapper {
+    width: 22%;
+    padding: 30px;
+    margin: 20px auto;
+    border: 2px solid rgba(255, 111, 22, 0.815);
+    border-radius: 10%;
+
+    h1{
+      text-align: center;
+    }
+  }
+}
+
+.box{
+  .wrapper {
+    width: 317.5px;
+    padding: 30px;
+    margin: 20px auto;
+    border: 2px solid rgba(255, 111, 22, 0.815);
+    border-radius: 10%;
+
+    h1{
+      text-align: center;
+    }
+  }
+}
+
